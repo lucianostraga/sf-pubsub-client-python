@@ -1,1 +1,1 @@
-web: gunicorn sf-pubsub-client-python:app
+web: gunicorn api:app
