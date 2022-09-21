@@ -46,7 +46,7 @@ def process_json():
 
         #response = requests.request("POST", SALESFORCE_SERVICE, headers=headers, data=payload)
     
-        return response.text
+        return '201'
     else:
         return 'Content-Type not supported!'
 
