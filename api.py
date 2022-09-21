@@ -13,6 +13,8 @@ def process_json():
     if (content_type == 'application/json'):
         jsonBody = request.json
 
+        print(jsonBody)
+
         session = requests.Session()
 
         SALESFORCE_OAUT_URL = 'https://teaminternational1234--dreamforce.sandbox.my.salesforce.com/services/oauth2/token'
