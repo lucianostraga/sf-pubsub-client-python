@@ -44,7 +44,7 @@ def process_json():
         }
         payload = json.dumps(requestToSend)
 
-        response = requests.request("POST", SALESFORCE_SERVICE, headers=headers, data=payload)
+        #response = requests.request("POST", SALESFORCE_SERVICE, headers=headers, data=payload)
     
         return response.text
     else:
